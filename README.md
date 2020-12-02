@@ -1,6 +1,8 @@
 # JupyterWebApiDemo
 Brief demo of web API for jupyter notebook using ipywidgets, voila, and binder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mattroos/JupyterWebApiDemo/HEAD?filepath=.%2Fweb_demo.ipynb)
+
 ## Build and interactive noteboook
 Use [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/user_install.html) to create interactive user interfaces in your notebook, as in [web_demo.ipynb](./web_demo.ipynb).
 
@@ -23,10 +25,3 @@ Run the demo notebook as a standalone app, via your browser.
 ```
 voila web_demo.ipynb
 ```
-
-## Host your notebook on the web
-Place your notebook online at a publically available location, such as Github.
-
-Use [Binder](https://mybinder.org/) to host and run your notbook.
-
-
