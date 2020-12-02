@@ -25,3 +25,31 @@ Run the demo notebook as a standalone app, via your browser.
 ```
 voila web_demo.ipynb
 ```
+
+## Host your notebook online
+Use [Binder](https://mybinder.org/) to host your interactive notebook.
+
+Note that when you point binder to your repo and notebook, the "Path to a notebook file" should include the voila rendering, so the path should look something like this:
+
+```/voila/render/web_demo.ipynb```
+
+See the [Deployment on Binder](https://voila.readthedocs.io/en/stable/deploy.html) guide for more info.
+
+You may also want to include a ```jupyter_config.json``` file in the repo root directory, to customize the Voila render, e.g.:
+```
+{
+  "VoilaConfiguration": {
+    "theme": "dark",
+    "template": "gridstack"
+  }
+}
+```
+
+
+
+
+
+
+
+
+
